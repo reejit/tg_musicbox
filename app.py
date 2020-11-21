@@ -17,7 +17,7 @@ from telegram.error import (TelegramError, Unauthorized, BadRequest,
                             TimedOut, ChatMigrated, NetworkError)
 
 # 机器人的 TOKEN 填写在这里
-TOKEN = "{YOUR_BOT_TOKEN}" 
+TOKEN = "1237158302:AAGw2hSx0oLnpGQ7byTEwRbqxa-3Y86Dpj8" 
 PORT = int(os.environ.get('PORT', '80'))
 
 def error_callback(bot, context, error):
@@ -60,7 +60,7 @@ def getMusicNameFromUser(context):
 def getMusicInfoFromInternet(bot, context, musicName, msg):
 
     # 这里添加网易云音乐 API 的地址
-    baseUrl = '{网易云音乐API的地址}'
+    baseUrl = 'https://nolol.herokuapp.com/'
 
     music = namedtuple('music_info', ['name', 'id', 'author', 'thumb', 'url', 'lyric'])
     resp = requests.get(baseUrl + f'/search?keywords={musicName}').json()
