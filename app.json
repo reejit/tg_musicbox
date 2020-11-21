@@ -2,6 +2,6 @@
     "name": "MusicBox",
     "description": "Telegram Music Box",
     "image": "heroku/python",
-    "repository": "{部署代码的仓库地址}",
+    "repository": "https://github.com/reejit/tg_musicbox",
     "keywords": ["python"]
 }
