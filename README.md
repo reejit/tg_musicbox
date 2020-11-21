@@ -3,8 +3,7 @@
 
 
 ## 效果展示
-
-![效果展示](heroku.com/deploy)
+[Hmm](heroku.com/deploy)
 
 在发出我想听XXX(歌曲名)后，bot返回的对话框状态由 搜索中 -> 下载中 -> 发送中 -> 歌曲 自动转换
 
